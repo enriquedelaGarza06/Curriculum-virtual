@@ -1,0 +1,19 @@
+{
+  "name": "curriculum-virtual",
+  "version": "1.0.0",
+  "description": "Curriculum virtual personal para Enrique de la Garza",
+  "main": "index.js",
+  "scripts": {
+    "test": "node run test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enriquedelaGarza06/Curriculum-virtual.git"
+  },
+  "author": "Enrique de la Garza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enriquedelaGarza06/Curriculum-virtual/issues"
+  },
+  "homepage": "https://github.com/enriquedelaGarza06/Curriculum-virtual#readme"
+}
