@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/enriquedelaGarza06/Curriculum-virtual/issues"
   },
-  "homepage": "https://github.com/enriquedelaGarza06/Curriculum-virtual#readme"
+  "homepage": "https://github.com/enriquedelaGarza06/Curriculum-virtual#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
