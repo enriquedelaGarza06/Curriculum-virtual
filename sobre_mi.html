@@ -1,103 +1,76 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mí - CV de Tu Nombre Completo</title>
+    <title>About Me - Enrique Jair Pablo de la Garza</title>
     
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <!-- Heroicons CDN for icons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <style>
-        /* Usando la fuente Inter como predeterminada y añadiendo soporte para dark mode */
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        /* Opcional: Para una mejor estética en modo oscuro */
-        .dark .shadow-2xl {
-             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 15px rgba(0,0,0,0.5);
-        }
+        body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 antialiased">
 
-    <!-- Contenedor principal -->
-    <div class="container max-w-5xl mx-auto my-8 sm:my-12 p-6 sm:p-10 bg-white dark:bg-gray-800 shadow-2xl rounded-lg">
+    <div class="container max-w-5xl mx-auto my-8 p-6 sm:p-10 bg-white dark:bg-gray-800 shadow-2xl rounded-lg">
 
-        <!-- Encabezado -->
         <header class="text-center mb-10 pb-6 border-b border-gray-200 dark:border-gray-700">
-            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white">Sobre Mí</h1>
-            <h2 class="text-xl md:text-2xl font-light text-blue-600 dark:text-blue-400 mt-2">Un poco más allá del código y los pixeles</h2>
+            <h1 class="text-4xl font-bold text-gray-800 dark:text-white">About Me</h1>
+            <h2 class="text-xl text-blue-600 dark:text-blue-400 mt-2">From Gamer to Tester: Driven by Curiosity</h2>
         </header>
 
-        <!-- Contenido principal -->
         <main class="space-y-12">
 
-            <!-- Sección de Mi Historia -->
             <section>
-                <h2 class="section-title text-xl font-bold text-gray-800 dark:text-gray-100 border-b-2 border-blue-500 pb-2 mb-4 uppercase tracking-wide">Mi Historia</h2>
+                <h2 class="text-xl font-bold text-gray-800 dark:text-gray-100 border-b-2 border-blue-500 pb-2 mb-4 uppercase">My Story</h2>
                 <div class="text-base leading-relaxed space-y-4">
                     <p>
-                        Desde pequeño, siempre sentí una gran curiosidad por cómo funcionaban las cosas. Esa curiosidad me llevó primero a desarmar juguetes y, años más tarde, a escribir mis primeras líneas de código. Descubrí en la programación una herramienta increíble para construir y dar vida a mis ideas.
+                        It all started with video games. Beyond just playing them, I was fascinated by understanding how they worked, how those worlds were built, and the logic behind them. That technical curiosity was my first step into technology.
                     </p>
                     <p>
-                        Mi viaje profesional comenzó en Monterrey, donde me gradué de la Universidad Autónoma de Nuevo León. Durante mis estudios, no solo adquirí una base técnica sólida, sino que también desarrollé una pasión por la resolución de problemas complejos y el trabajo en equipo. Creo firmemente que la mejor tecnología es aquella que es intuitiva, eficiente y mejora la vida de las personas.
+                        Later on, connecting with professionals in the field, I discovered the role of <strong>QA (Quality Assurance)</strong>. I learned about their methodology and got hooked: it was the perfect balance between technical skills and analysis.
+                    </p>
+                    <p>
+                        Today, my goal is clear: I don't settle for testing "on the surface." I am training to <strong>master code expertly</strong>. I firmly believe that to be an exceptional QA, one must understand how software is built piece by piece to effectively break it and improve it.
                     </p>
                 </div>
             </section>
 
-            <!-- Sección de Mis Pasiones -->
             <section>
-                <h2 class="section-title text-xl font-bold text-gray-800 dark:text-gray-100 border-b-2 border-blue-500 pb-2 mb-4 uppercase tracking-wide">Mis Pasiones</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
+                <h2 class="text-xl font-bold text-gray-800 dark:text-gray-100 border-b-2 border-blue-500 pb-2 mb-4 uppercase">My Passions & Hobbies</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
                     
-                    <div class="flex flex-col items-center p-4">
-                        <ion-icon name="game-controller-outline" class="text-4xl text-blue-500 mb-2"></ion-icon>
-                        <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Videojuegos</h3>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">Amante de los RPGs y las estrategias que desafían la mente.</p>
+                    <div class="flex flex-col items-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                        <ion-icon name="desktop-outline" class="text-4xl text-blue-500 mb-2"></ion-icon>
+                        <h3 class="font-semibold text-lg text-gray-900 dark:text-white">PC & Hardware</h3>
+                        <p class="text-sm mt-2">I enjoy PC maintenance. If an installation or game crashes, I won't rest until I diagnose the error and fix it (Pure troubleshooting!).</p>
                     </div>
                     
-                    <div class="flex flex-col items-center p-4">
-                        <ion-icon name="book-outline" class="text-4xl text-blue-500 mb-2"></ion-icon>
-                        <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Lectura</h3>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">Fanático de la ciencia ficción y las biografías tecnológicas.</p>
+                    <div class="flex flex-col items-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                        <ion-icon name="musical-notes-outline" class="text-4xl text-blue-500 mb-2"></ion-icon>
+                        <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Music & Cooking</h3>
+                        <p class="text-sm mt-2">Practicing music, cooking, and reading are my creative outlets to keep my mind sharp and agile.</p>
                     </div>
 
-                    <div class="flex flex-col items-center p-4">
-                         <ion-icon name="walk-outline" class="text-4xl text-blue-500 mb-2"></ion-icon>
-                        <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Senderismo</h3>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">Disfruto explorar la naturaleza para desconectar y recargar energías.</p>
+                    <div class="flex flex-col items-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                        <ion-icon name="people-outline" class="text-4xl text-blue-500 mb-2"></ion-icon>
+                        <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Family & Sports</h3>
+                        <p class="text-sm mt-2">Playing sports and spending quality time with my family is fundamental for my balance and recharging energy.</p>
                     </div>
 
                 </div>
             </section>
 
-            <!-- Sección de Filosofía -->
-            <section>
-                <h2 class="section-title text-xl font-bold text-gray-800 dark:text-gray-100 border-b-2 border-blue-500 pb-2 mb-4 uppercase tracking-wide">Filosofía Profesional</h2>
-                <blockquote class="border-l-4 border-blue-500 pl-4 italic text-gray-600 dark:text-gray-400">
-                    <p>"Busco siempre el aprendizaje continuo y la mejora constante. Mi objetivo es formar parte de un equipo donde pueda aportar mis habilidades para crear productos de alta calidad, mientras aprendo de profesionales talentosos. Me motiva el desafío de encontrar soluciones simples a problemas complejos."</p>
-                </blockquote>
-            </section>
-
-            <!-- Botón para volver al CV -->
             <div class="text-center pt-8">
-                <a href="/" class="inline-block px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75 transition-transform transform hover:scale-105">
-                    Volver a mi Currículum
+                <a href="/" class="inline-block px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-transform hover:scale-105 shadow-lg">
+                    Back to Home
                 </a>
             </div>
 
         </main>
-    </div>
-
-</body>
-</html>
