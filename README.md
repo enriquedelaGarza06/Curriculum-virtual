@@ -5,3 +5,6 @@ Aplicación web con las siguientes herramientas:
 1. NodeJS
 2. ExpressJS
 3. MongoDB
+## Updates
+- Added Glassmorphism UI
+- Implemented Footer component
