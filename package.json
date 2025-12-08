@@ -1,6 +1,6 @@
 {
   "name": "curriculum-virtual",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Curriculum virtual personal para Enrique de la Garza",
   "main": "index.js",
   "scripts": {
