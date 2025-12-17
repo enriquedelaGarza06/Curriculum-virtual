@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Secure Login System (Python)",
+    "description": "Developed a 'White Box' authentication system implementing bcrypt for password hashing and JSON for data persistence. Designed to understand security vulnerabilities.",
+    "tech": ["Python", "Bcrypt", "Security"],
+    "link": "https://github.com/enriquedelaGarza06",
+    "type": "backend"
+  },
+  {
+    "id": 2,
+    "title": "Interactive Developer Portfolio",
+    "description": "Built a responsive web application from scratch using Node.js + Express. Implemented server-side routing and mobile-first adaptability.",
+    "tech": ["Node.js", "Express", "Tailwind"],
+    "link": "#",
+    "type": "frontend"
+  }
+]
