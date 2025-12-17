@@ -27,6 +27,14 @@ app.get('/api/projects', (req, res) => {
     res.json(projectsData);
 });
 
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-});
+
+// MODIFICACIÓN PARA TESTING:
+// Solo iniciar el servidor si este archivo se ejecuta directamente
+if (require.main === module) {
+    app.listen(port, () => {
+        console.log(`Server running at http://localhost:${port}`);
+    });
+}
+
+// Exportamos la app para que Jest (el test) la pueda usar
+module.exports = app;
