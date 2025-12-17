@@ -171,6 +171,33 @@
                         <a href="#" class="text-xs text-white bg-green-600 hover:bg-green-700 px-3 py-1 rounded transition">View Demo</a>
                     </div>
                 </section>
+                <section class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-lg mt-8">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                        <ion-icon name="paper-plane-outline" class="text-blue-400"></ion-icon> Send me a message
+                    </h3>
+                    
+                    <form action="/contacto" method="POST" class="space-y-4">
+                        <div>
+                            <label class="block text-sm text-slate-400 mb-1">Name</label>
+                            <input type="text" name="nombre" required class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-white focus:border-blue-500 focus:outline-none placeholder-slate-600" placeholder="Recruiter Name">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm text-slate-400 mb-1">Email</label>
+                            <input type="email" name="email" required class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-white focus:border-blue-500 focus:outline-none placeholder-slate-600" placeholder="recruiter@company.com">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm text-slate-400 mb-1">Message</label>
+                            <textarea name="mensaje" rows="4" required class="w-full bg-slate-900 border border-slate-700 rounded p-2 text-white focus:border-blue-500 focus:outline-none placeholder-slate-600" placeholder="Hi Enrique, I saw your portfolio..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition flex justify-center items-center gap-2">
+                            <span>Send Message</span>
+                            <ion-icon name="send-outline"></ion-icon>
+                        </button>
+                    </form>
+                </section>
 
             </main>
         </div>
